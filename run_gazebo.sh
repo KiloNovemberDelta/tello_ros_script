@@ -1,4 +1,5 @@
 #!/bin/bash
+killall gzserver
 
 cd ~/tello_ros_ws
 source install/setup.bash
