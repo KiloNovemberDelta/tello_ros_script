@@ -10,6 +10,9 @@ pip3 install transformations==2018.9.5
 sudo apt -y install gazebo11 libgazebo11 libgazebo11-dev
 sudo apt -y install ros-foxy-gazebo-ros-pkgs ros-foxy-cv-bridge
 
+# Install opencv 
+pip3 install opencv-contrib-python
+
 # Install ros project
 mkdir -p ~/tello_ros_ws/src
 cd ~/tello_ros_ws/src
