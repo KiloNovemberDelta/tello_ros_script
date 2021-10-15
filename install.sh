@@ -1,14 +1,14 @@
 #!/bin/bash
 sudo apt update
-sudo apt install libasio-dev
+sudo apt -y install libasio-dev
 
 # Install project's dependencies 
-sudo apt install ros-foxy-cv-bridge ros-foxy-camera-calibration-parsers
-sudo apt install python3-colcon-common-extensions
-sudo apt install python3-pip
+sudo apt -y install ros-foxy-cv-bridge ros-foxy-camera-calibration-parsers
+sudo apt -y install python3-colcon-common-extensions
+sudo apt -y install python3-pip
 pip3 install transformations==2018.9.5
-sudo apt install gazebo11 libgazebo11 libgazebo11-dev
-sudo apt install ros-foxy-gazebo-ros-pkgs ros-foxy-cv-bridge
+sudo apt -y install gazebo11 libgazebo11 libgazebo11-dev
+sudo apt -y install ros-foxy-gazebo-ros-pkgs ros-foxy-cv-bridge
 
 # Install ros project
 mkdir -p ~/tello_ros_ws/src
