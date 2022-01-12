@@ -1,6 +1,6 @@
 #!/bin/bash
 sudo apt update
-#sudo apt -y upgrade
+sudo apt -y upgrade ros-foxy-*
 sudo apt -y install libasio-dev
 
 # Install project's dependencies 
