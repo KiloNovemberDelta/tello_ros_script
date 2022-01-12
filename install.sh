@@ -1,7 +1,8 @@
 #!/bin/bash
 
-sudo apt update
-sudo apt --only-upgrade install ros-galactic-gazebo-ros-pkgs -y
+sudo apt update -y
+sudo apt upgrade -y 
+#sudo apt --only-upgrade install ros-galactic-gazebo-ros-pkgs -y
 sudo apt -y install libasio-dev
 
 
