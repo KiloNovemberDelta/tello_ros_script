@@ -25,7 +25,7 @@ pip3 install opencv-contrib-python
 
 mkdir -p ~/tello_ros_ws/src
 cd ~/tello_ros_ws/src
-git clone https://github.com/KiloNovemberDelta/tello_ros.git
+git clone https://github.com/KiloNovemberDelta/tello_ros.git -b galactic
 git clone https://github.com/ptrmu/ros2_shared.git
 cd ..
 source /opt/ros/galactic/setup.bash
