@@ -11,8 +11,8 @@ sudo apt -y install libasio-dev
 sudo apt -y install ros-galactic-cv-bridge ros-galactic-camera-calibration-parsers
 sudo apt -y install python3-colcon-common-extensions
 sudo apt -y install python3-pip
-pip3 install transformations==2018.9.5
-sudo apt -y install gazebo11 libgazebo11 libgazebo11-dev
+#pip3 install transformations==2018.9.5
+#sudo apt -y install gazebo11 libgazebo11 libgazebo11-dev
 sudo apt -y install ros-galactic-gazebo-ros-pkgs ros-galactic-cv-bridge
 
 
@@ -32,4 +32,4 @@ source /opt/ros/galactic/setup.bash
 
 # If you didn't intall Gazebo, skip tello_gazebo while building:
 
-colcon build --event-handlers console_direct+
+colcon build --symlink-install
